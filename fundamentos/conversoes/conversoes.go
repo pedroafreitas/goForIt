@@ -17,10 +17,10 @@ func main(){
 	fmt.Println(notaFinal)
 
 	//cuidado!!!
-	fmt.Println("Teste " + string(97))
+	//fmt.Println("Teste " + string(97)) //int para string usando string() retorna unicode
 
 	//int para string
-	fmt.Println("Teste 2 " + strconv.Itoa(123))
+	fmt.Println("Teste " + strconv.Itoa(123))
 	
 	//string para int
 	num, _ := strconv.Atoi("123") //uma função em Go pode retornar dois valores
