@@ -6,6 +6,24 @@ import "fmt"
 func main() {
 
 	fmt.Println("Programa com defeito !")
+	/*
+		a + b
+		a - b
+		a / b
+		a * b
+		a % b
+		AND a&b
+		OR a|b
+		XOR a^b
+
+		math.Max(a,b) //retorna o maior
+
+		math.Min(a,b) //retorna o menor
+
+		math.Pow(a,b) //a elevado à b
+
+		
+	*/
 }
 
 /*
