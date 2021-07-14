@@ -59,4 +59,12 @@ func main(){
 	//var x char = 'a' não existe
 	fmt.Println("O tipo de char é", reflect.TypeOf(char)) //é rune que na verdade é int32
 
+//Zeros
+	var a int
+	var f float64
+	var c bool
+	var d string
+	var e *int
+
+	fmt.Printf("%v %v %v %v %v\n", a, f, c, d, e)
 }
