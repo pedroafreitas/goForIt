@@ -12,9 +12,6 @@ func main() {
 		a / b
 		a * b
 		a % b
-		AND a&b
-		OR a|b
-		XOR a^b
 
 		math.Max(a,b) //retorna o maior
 

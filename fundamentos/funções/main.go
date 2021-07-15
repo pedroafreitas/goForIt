@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	resultado := somar(100, 329323)
+	resultado := somar(100, 32)
 	imprimir(resultado)
 }

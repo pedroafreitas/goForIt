@@ -4,8 +4,6 @@ import (
 	"fmt"
 )
 
-
-
 func imprimir(valor int){
 	fmt.Println(valor)
 }
