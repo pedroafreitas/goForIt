@@ -33,5 +33,7 @@ func main() {
 	funções. 
 	*/
 	fmt.Println(notaParaConceito(3.3))
+	fmt.Println(notaParaConceito(11.0))
+	fmt.Println(notaParaConceito(8.0))
 
 }
