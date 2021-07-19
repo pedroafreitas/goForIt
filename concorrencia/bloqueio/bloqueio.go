@@ -19,5 +19,8 @@ func main() {
 	fmt.Println(<-c) //operação bloqueante. Só recebo quando o dado está pronto
 	fmt.Println("Foi lido")
 	//fmt.Println(<-c) //deadlock#
+	//Se não tem ninguém para enviar, vai gerar uma espera eterna. Um deadlock.
 	fmt.Println("FIM")
+
+
 }
