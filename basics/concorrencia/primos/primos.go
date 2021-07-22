@@ -29,7 +29,7 @@ func primos(n int, c chan int) {
 }
 
 func main() {
-	c := make(chan int, 3000)
+	c := make(chan int, 300)
 	go primos(cap(c), c)
 
 	for primo := range c {
