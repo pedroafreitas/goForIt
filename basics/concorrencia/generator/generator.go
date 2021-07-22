@@ -33,7 +33,7 @@ func main() {
 	/*
 	Esse padrão já encapsula as routines dentro da função.
 	Não me preocupo com buffer, a criação do canal ou qualquer
-	outra coisa. A única coisa que eu faço é chamar o canal.
+	outra coisa. A única tarefa que eu faço é chamar o canal.
 
 	É muito mais rápido eu fazer isso com concorrência do que
 	de forma serial.
