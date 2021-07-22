@@ -14,6 +14,7 @@ Checklist:
    3. tipos
    4. interface
    5. polimorfismo
+   6. corrigir pacotes
 2. Ferramenta para desenvolvimento Go
 3. Aplicações Exemplo
 4. Concorrência
