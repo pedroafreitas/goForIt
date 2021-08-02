@@ -17,6 +17,7 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(1)
 	go myFunc(&wg)
-	wg.Wait()
+	wg.Wait() 
+	
 	fmt.Println("!!!Terminou o programa!!!")
 }
